@@ -33,7 +33,7 @@ const About = () => (
 
         art_ideas: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "customers_pot" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -50,10 +50,9 @@ const About = () => (
             <div>
               <h2>Meet relevant connections</h2>
               <p>
-                Fika mentorship app allows you to search and connect with other students and professionals.
-                Instead of relying on a third-party or organizations to facilitate the traditional
-                mentorship pairing, discover new profiles, chat about experiences, and get your questions answered  — whether you're
-                looking for short- or long-term matches.
+                Fika is an app that allows you to search and connect with other students and professionals.
+                Without relying on a third-party or organizations to facilitate the traditional
+                mentorship pairing, discover new profiles with our matching and filtering system.
               </p>
             </div>
             <Art>
@@ -65,23 +64,20 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Chat about experiences</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                Need advice on job applications? Want to learn more about specific careers? – Fika allows you
+                to chat in-app with people you've matched with
+                to grow your network and experiences.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>Grow and build your network</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
+                Learn from others. Share your own experiences. We believe that everyone should be
+                a lifelong learner that takes time to connect with others within and outside of our communities.
               </p>
             </div>
             <Art>
@@ -124,8 +120,8 @@ const Grid = styled.div`
     }
 
     ${props =>
-      props.inverse &&
-      `
+    props.inverse &&
+    `
         ${Art} {
           order: 2;
         }

@@ -13,7 +13,7 @@ const Header = () => (
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "build" }
+          name: { eq: "ideas" }
         ) {
           childImageSharp {
             fluid(maxWidth: 1400) {
@@ -41,7 +41,7 @@ const Header = () => (
               <br />
               <p>
                 <AnchorLink href='#brands'>
-                  Be the first to know &nbsp;&#x2794;
+                  Sign up here &nbsp;&#x2794;
                 </AnchorLink>
               </p>
             </Text>
