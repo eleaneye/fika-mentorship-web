@@ -40,7 +40,7 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <AnchorLink href='#brands'>
+                <AnchorLink href='#download'>
                   Sign up here &nbsp;&#x2794;
                 </AnchorLink>
               </p>
