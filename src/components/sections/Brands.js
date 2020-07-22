@@ -15,32 +15,32 @@ import { ReactComponent as NikeLogo } from '@images/logos/nike.svg';
 import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
 import { SignupForm } from '../Form';
 
-// const LOGOS = [
-//   {
-//     logo: AirbnbLogo,
-//     link: 'https://airbnb.io',
-//   },
-//   {
-//     logo: AppleMusicLogo,
-//     link: 'https://www.apple.com/in/music/',
-//   },
-//   {
-//     logo: CokeLogo,
-//     link: 'https://coca-cola.com',
-//   },
-//   {
-//     logo: NodeLogo,
-//     link: 'https://nodejs.org',
-//   },
-//   {
-//     logo: NikeLogo,
-//     link: 'https://nike.com',
-//   },
-//   {
-//     logo: InstagramLogo,
-//     link: 'https://instagram.com',
-//   },
-// ];
+const LOGOS = [
+  {
+    logo: AirbnbLogo,
+    link: 'https://airbnb.io',
+  },
+  {
+    logo: AppleMusicLogo,
+    link: 'https://www.apple.com/in/music/',
+  },
+  {
+    logo: CokeLogo,
+    link: 'https://coca-cola.com',
+  },
+  {
+    logo: NodeLogo,
+    link: 'https://nodejs.org',
+  },
+  {
+    logo: NikeLogo,
+    link: 'https://nike.com',
+  },
+  {
+    logo: InstagramLogo,
+    link: 'https://instagram.com',
+  },
+];
 
 const UsedBy = () => (
   <StaticQuery

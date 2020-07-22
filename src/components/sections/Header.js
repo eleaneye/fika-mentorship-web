@@ -5,6 +5,7 @@ import Img from 'gatsby-image';
 
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => (
   <StaticQuery
@@ -39,9 +40,9 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="#brands">
+                <AnchorLink href='#brands'>
                   Be the first to know &nbsp;&#x2794;
-                </StyledExternalLink>
+                </AnchorLink>
               </p>
             </Text>
           </Grid>
