@@ -41,7 +41,7 @@ const Header = () => (
               <br />
               <p>
                 <AnchorLink href='#download'>
-                  Sign up here &nbsp;&#x2794;
+                  Join our beta list &nbsp;&#x2794;
                 </AnchorLink>
               </p>
             </Text>

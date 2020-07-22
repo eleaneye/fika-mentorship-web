@@ -9,12 +9,12 @@ const TEAM = [
   {
     name: 'Ha Nguyen',
     image: 'josh.jpg',
-    role: 'Full-Stack Developer',
+    role: 'Full-Stack Engineer',
   },
   {
     name: 'Isabella Wang',
     image: 'lisa.jpg',
-    role: 'Chats Engineer',
+    role: 'Full-Stack Engineer',
   },
   {
     name: 'Sophia Patterson',
@@ -23,8 +23,8 @@ const TEAM = [
   },
   {
     name: 'Eleane Ye',
-    image: 'todd.jpg',
-    role: 'Participant',
+    image: 'scream.jpg',
+    role: 'Product Manager and Developer',
   },
   {
     name: 'Diane Hu',
@@ -35,6 +35,11 @@ const TEAM = [
     name: 'Jenny Chin',
     image: 'rose.jpg',
     role: 'PM Mentor',
+  },
+  {
+    name: 'Kayla Niu',
+    image: 'todd.jpg',
+    role: 'Engineer Mentor',
   },
 ];
 
