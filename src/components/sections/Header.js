@@ -13,10 +13,10 @@ const Header = () => (
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "iPhone" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1400) {
+            fluid(maxWidth: 760) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }

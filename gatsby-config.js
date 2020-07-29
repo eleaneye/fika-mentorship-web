@@ -37,7 +37,7 @@ module.exports = {
         short_name: `fika`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#ffffff`,
+        theme_color: `#bea586`,
         display: `minimal-ui`,
         icon: `static/favicon.ico`,
       },
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`average`, `prata\:400,700`],
+        fonts: [`average`, `prata\:400,700`, `arimo`, 'merriweather-sans'],
       },
     },
     {
