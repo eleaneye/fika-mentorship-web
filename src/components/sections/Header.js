@@ -13,7 +13,7 @@ const Header = () => (
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "welcome" }
+          name: { eq: "landing" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -62,13 +62,13 @@ const HeaderWrapper = styled.header`
 `;
 
 const Art = styled.figure`
-  width: 76%;
+  width: 68%;
   margin: 0;
-  justify-self: left;
+  justify-self: center;
 
   > div {
     width: 120%;
-    margin-bottom: -3.5%;
+    margin-bottom: -20.5%;
 
     @media (max-width: ${props => props.theme.screen.md}) {
       width: 100%;

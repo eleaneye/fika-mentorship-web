@@ -23,8 +23,8 @@ const TEAM = [
   },
   {
     name: 'Eleane Ye',
-    image: 'scream.jpg',
-    role: 'Product Manager and Developer',
+    image: 'eleane.jpg',
+    role: 'PM & Frontend Engineer',
   },
   {
     name: 'Diane Hu',

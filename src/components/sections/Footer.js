@@ -11,18 +11,14 @@ import InstagramIcon from '@static/icons/instagram.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
 
 const SOCIAL = [
-  {
-    icon: GithubIcon,
-    link: 'https://github.com/eleaneye/fika-mentorship-web',
-  },
-  {
-    icon: InstagramIcon,
-    link: 'https://instagram.com/ajay_ns',
-  },
-  {
-    icon: TwitterIcon,
-    link: 'https://twitter.com/ajayns08',
-  },
+  // {
+  //   icon: InstagramIcon,
+  //   link: 'https://instagram.com/ajay_ns',
+  // },
+  // {
+  //   icon: TwitterIcon,
+  //   link: 'https://twitter.com/ajayns08',
+  // },
 ];
 
 const Footer = () => (
