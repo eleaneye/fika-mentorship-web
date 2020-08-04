@@ -13,7 +13,7 @@ const Header = () => (
       query {
         art_build: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "iPhone" }
+          name: { eq: "welcome" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -62,12 +62,13 @@ const HeaderWrapper = styled.header`
 `;
 
 const Art = styled.figure`
-  width: 100%;
+  width: 76%;
   margin: 0;
+  justify-self: left;
 
   > div {
     width: 120%;
-    margin-bottom: -4.5%;
+    margin-bottom: -3.5%;
 
     @media (max-width: ${props => props.theme.screen.md}) {
       width: 100%;
@@ -99,13 +100,13 @@ const Text = styled.div`
   }
 `;
 
-const StyledExternalLink = styled(ExternalLink)`
-  color: inherit;
-  text-decoration: none;
+// const StyledExternalLink = styled(ExternalLink)`
+//   color: inherit;
+//   text-decoration: none;
 
-  &:hover {
-    color: ${props => props.theme.color.black.regular};
-  }
-`;
+//   &:hover {
+//     color: ${props => props.theme.color.black.regular};
+//   }
+// `;
 
 export default Header;

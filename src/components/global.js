@@ -40,8 +40,36 @@ export const Section = styled.section`
   ${props =>
     props.accent &&
     `background-color: ${
-      props.accent === 'secondary'
-        ? props.theme.color.white.dark
-        : props.theme.color.primary
+    props.accent === 'secondary'
+      ? props.theme.color.white.dark
+      : props.theme.color.primary
     }`};
+`;
+
+export const StyledContainer = styled(Container)`
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  height: 600px;
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    justify-content: center;
+  }
+`;
+
+export const Art = styled.figure`
+  width: 600px;
+  position: absolute;
+  top: -1%;
+  right: 50%;
+
+  @media (max-width: ${props => props.theme.screen.lg}) {
+    top: 0;
+    right: 65%;
+    width: 500px;
+  }
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    display: none;
+  }
 `;

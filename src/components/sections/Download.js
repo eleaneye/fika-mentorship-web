@@ -7,41 +7,6 @@ import Img from 'gatsby-image';
 import { Section, Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import { ReactComponent as AirbnbLogo } from '@images/logos/airbnb.svg';
-import { ReactComponent as AppleMusicLogo } from '@images/logos/apple-music.svg';
-import { ReactComponent as CokeLogo } from '@images/logos/coca-cola.svg';
-import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg';
-import { ReactComponent as NikeLogo } from '@images/logos/nike.svg';
-import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
-import { SignupForm } from '../Form';
-
-const LOGOS = [
-  {
-    logo: AirbnbLogo,
-    link: 'https://airbnb.io',
-  },
-  {
-    logo: AppleMusicLogo,
-    link: 'https://www.apple.com/in/music/',
-  },
-  {
-    logo: CokeLogo,
-    link: 'https://coca-cola.com',
-  },
-  {
-    logo: NodeLogo,
-    link: 'https://nodejs.org',
-  },
-  {
-    logo: NikeLogo,
-    link: 'https://nike.com',
-  },
-  {
-    logo: InstagramLogo,
-    link: 'https://instagram.com',
-  },
-];
-
 const UsedBy = () => (
   <StaticQuery
     query={graphql`
@@ -66,6 +31,7 @@ const UsedBy = () => (
             <a href='https://forms.gle/gHsJVdLJLj1rGKk56'>
               <p>Sign up here</p>
             </a>
+
             {/* <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>
@@ -82,6 +48,7 @@ const UsedBy = () => (
     )}
   />
 );
+
 
 const LogoGrid = styled.div`
   display: grid;
@@ -105,6 +72,7 @@ const StyledContainer = styled(Container)`
   display: flex;
   justify-content: flex-end;
   position: relative;
+  height: 600px;
 
   @media (max-width: ${props => props.theme.screen.md}) {
     justify-content: center;
@@ -114,7 +82,7 @@ const StyledContainer = styled(Container)`
 const Art = styled.figure`
   width: 600px;
   position: absolute;
-  top: -12%;
+  top: -1%;
   right: 50%;
 
   @media (max-width: ${props => props.theme.screen.lg}) {
