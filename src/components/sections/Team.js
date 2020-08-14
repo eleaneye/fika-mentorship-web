@@ -8,7 +8,7 @@ import { Section, Container } from '@components/global';
 const TEAM = [
   {
     name: 'Ha Nguyen',
-    image: 'josh.jpg',
+    image: 'ha.jpeg',
     role: 'Full-Stack Engineer',
   },
   {
@@ -18,7 +18,7 @@ const TEAM = [
   },
   {
     name: 'Sophia Patterson',
-    image: 'ashlyn.jpg',
+    image: 'sophia.jpeg',
     role: 'Frontend Engineer',
   },
   {
@@ -38,8 +38,8 @@ const TEAM = [
   },
   {
     name: 'Kayla Niu',
-    image: 'todd.jpg',
-    role: 'Engineer Mentor',
+    image: 'kayla.jpg',
+    role: 'Engineering Mentor',
   },
 ];
 
