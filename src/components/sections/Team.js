@@ -13,7 +13,7 @@ const TEAM = [
   },
   {
     name: 'Isabella Wang',
-    image: 'lisa.jpg',
+    image: 'isabella.jpg',
     role: 'Full-Stack Engineer',
   },
   {
